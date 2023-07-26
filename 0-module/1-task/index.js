@@ -1,3 +1,1 @@
-function sum(m, n) {
-  // ваш код...
-}
+let sum = (a, b) => a + b;
