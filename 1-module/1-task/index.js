@@ -1,3 +1,1 @@
-function factorial(n) {
-  // ваш код...
-}
+let factorial = (n) => (n === 0 ? 1 : n * factorial(n - 1));
