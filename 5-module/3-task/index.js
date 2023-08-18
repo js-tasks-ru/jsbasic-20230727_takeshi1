@@ -24,14 +24,14 @@ function initCarousel() {
   }
 
   carouselItem.addEventListener("click", (event) => {
-    let taget = event.target;
+    let target = event.target;
 
-    if (carouselArrowRight.contains(taget)) {
+    if (carouselArrowRight.contains(target)) {
       currentSlide++;
       carouselItemInner.style.transform = `translateX(-${
         carouselWidth * currentSlide
       }px)`;
-    } else if (carouselArrowLeft.contains(taget)) {
+    } else if (carouselArrowLeft.contains(target)) {
       currentSlide--;
       carouselItemInner.style.transform = `translateX(-${
         carouselWidth * currentSlide
