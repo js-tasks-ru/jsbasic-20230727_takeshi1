@@ -44,12 +44,12 @@ export default class Modal {
   };
 
   setTitle(text) {
-    const modalTitle = document.querySelector(".modal__title");
+    const modalTitle = this.elem.querySelector(".modal__title");
     modalTitle.textContent = text;
   }
 
   setBody(body) {
-    const modalBody = document.querySelector(".modal__body");
+    const modalBody = this.elem.querySelector(".modal__body");
     modalBody.innerHTML = "";
     modalBody.append(body);
   }
