@@ -29,7 +29,7 @@ export default class ProductGrid {
         continue;
       }
       if (
-        this.filters.maxSpiciness &&
+        this.filters.maxSpiciness !== undefined &&
         product.spiciness > this.filters.maxSpiciness
       ) {
         continue;
