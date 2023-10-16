@@ -18,10 +18,10 @@ export default class StepSlider {
   #render() {
     this.elem = createElement(`
     <div class="slider">
-      <div class="slider__thumb" style="left: 0%">
+      <div class="slider__thumb" style="left: 75%">
         <span class="slider__value">${this.value}</span>
       </div>
-      <div class="slider__progress" style="width: 0%"></div>
+      <div class="slider__progress" style="width: 75%"></div>
       <div class="slider__steps"></div>
     </div>
     `);
